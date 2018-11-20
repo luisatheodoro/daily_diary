@@ -1,6 +1,6 @@
 require 'sinatra'
 
-class DailyDiary < Sinatra::Base
+class Diary < Sinatra::Base
 
   get '/' do
     redirect '/diary'
